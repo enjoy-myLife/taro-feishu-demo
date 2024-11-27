@@ -1,0 +1,58 @@
+{
+  "name": "food",
+  "version": "1.0.0",
+  "private": true,
+  "description": "food",
+  "templateInfo": {
+    "name": "default",
+    "typescript": true,
+    "css": "Sass",
+    "framework": "Vue3"
+  },
+  "scripts": {
+    "build:lark": "taro build --type lark",
+    "dev:lark": "npm run build:lark -- --watch"
+  },
+  "browserslist": [
+    "defaults and fully supports es6-module",
+    "maintained node versions"
+  ],
+  "author": "",
+  "dependencies": {
+    "@babel/runtime": "^7.24.4",
+    "@tarojs/components": "4.0.7",
+    "@tarojs/helper": "4.0.7",
+    "@tarojs/plugin-framework-vue3": "4.0.7",
+    "@tarojs/plugin-platform-alipay": "4.0.7",
+    "@tarojs/plugin-platform-h5": "4.0.7",
+    "@tarojs/plugin-platform-harmony-hybrid": "4.0.7",
+    "@tarojs/plugin-platform-jd": "4.0.7",
+    "@tarojs/plugin-platform-lark": "^1.1.5",
+    "@tarojs/plugin-platform-qq": "4.0.7",
+    "@tarojs/plugin-platform-swan": "4.0.7",
+    "@tarojs/plugin-platform-tt": "4.0.7",
+    "@tarojs/plugin-platform-weapp": "4.0.7",
+    "@tarojs/runtime": "4.0.7",
+    "@tarojs/shared": "4.0.7",
+    "@tarojs/taro": "4.0.7",
+    "vue": "^3.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.4",
+    "@babel/plugin-proposal-class-properties": "7.14.5",
+    "@tarojs/cli": "4.0.7",
+    "@tarojs/vite-runner": "4.0.7",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "@vitejs/plugin-vue-jsx": "^3.1.0",
+    "babel-preset-taro": "4.0.7",
+    "eslint": "^8.57.0",
+    "eslint-config-taro": "4.0.7",
+    "eslint-plugin-vue": "^9.17.0",
+    "postcss": "^8.4.38",
+    "sass": "^1.75.0",
+    "stylelint": "^16.4.0",
+    "terser": "^5.30.4",
+    "typescript": "^5.4.5",
+    "vite": "^4.2.0"
+  }
+}
