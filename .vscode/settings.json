@@ -1,0 +1,110 @@
+{
+	"workbench.editor.showTabs": "multiple",
+	"workbench.colorTheme": "One Dark Pro",
+	"workbench.iconTheme": "vscode-icons",
+	"workbench.colorCustomizations": {
+		"editor.lineHighlightBackground": "#06fa0610", // 编辑器选中高亮背景色
+		"editor.lineHighlightBorder": "#ffffff10" // 编辑器选中高亮边框色
+	},
+	// 基本配置
+	"editor.tabSize": 2,
+	"editor.renderWhitespace": "all",
+	"editor.detectIndentation": false, // 禁止基于文件内容检测缩进
+	"editor.insertSpaces": false,
+	"editor.fontSize": 14,
+	"editor.accessibilitySupport": "off",
+	"editor.formatOnPaste": false, // 粘贴格式化
+	"editor.formatOnType": true, // 格式检查
+	"editor.formatOnSave": true, // 保存自动格式化
+
+	"explorer.confirmDelete": false,
+	"vsicons.dontShowNewVersionMessage": true,
+	"cssrem.rootFontSize": 100,
+
+	// eslint 配置
+	"eslint.enable": false,
+	"eslint.format.enable": false,
+	// eslint 配置end
+
+	"git.confirmSync": false,
+	"[html]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[vue]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[jsonc]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[json]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[javascriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[css]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[less]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[scss]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[stylus]": {
+		"editor.defaultFormatter": "thisismanta.stylus-supremacy"
+	},
+	"[postcss]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[yaml]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"markdown.preview.lineHeight": 1.2,
+	"diffEditor.ignoreTrimWhitespace": false,
+	"search.showLineNumbers": true,
+	"merge-conflict.autoNavigateNextConflict.enabled": true,
+	"singleAttributePerLine": true,
+
+	// stylus 配置
+	"stylusSupremacy.insertColons": true, // 是否插入冒号
+	"stylusSupremacy.insertSemicolons": true, // 是否插入分号
+	"stylusSupremacy.insertBraces": true, // 是否插入大括号
+	"stylusSupremacy.insertNewLineAroundImports": false, // import之后是否换行
+	"stylusSupremacy.insertNewLineAroundBlocks": false,
+	// stylus 配置end
+
+	"color-highlight.enable": false,
+	"workbench.startupEditor": "none",
+	"EnglishChineseDictionary.enableHover": true,
+	"explorer.compactFolders": false,
+	"projectManager.svn.ignoredFolders": ["node_modules", "out", "typings", "test", "dist"],
+	"projectManager.svn.baseFolders": ["trunk"],
+	"redhat.telemetry.enabled": false,
+
+	// i18n-ally 配置
+	"i18n-ally.localesPaths": "src/lang",
+	"i18n-ally.keystyle": "nested",
+	"i18n-ally.sortKeys": true,
+	"i18n-ally.namespace": true,
+	"i18n-ally.enabledParsers": ["ts", "js"],
+	"i18n-ally.sourceLanguage": "en",
+	"i18n-ally.displayLanguage": "zh-cn",
+	"i18n-ally.enabledFrameworks": [
+		"vue"
+	],
+	"files.associations": {
+		"*.ttml": "xml",
+		"*.ttss": "css"
+	}
+	// i18n-ally 配置end
+}
